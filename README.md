@@ -35,8 +35,7 @@ NLP Models:
   - XLM-R
 
 Frameworks:
-  - Django
-  - Flask
+  - Typescript
   - React.js
 
 Search:
