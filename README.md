@@ -1,38 +1,57 @@
 # AiResearchForCommercialCourts
-An AI-driven legal research engine built to streamline and enhance case research in Commercial Courts. Powered by advanced Natural Language Processing (NLP), predictive analytics, and intelligent search, this project empowers lawyers and legal professionals with faster and more relevant legal insights.
 
- Features
- Context-aware Search Engine
-Use models like LegalBERT, T5, and Elasticsearch for semantic and keyword-based legal case retrieval.
+An AI-driven legal research engine built to streamline and enhance case research in Commercial Courts. This project leverages advanced Natural Language Processing (NLP), predictive analytics, and intelligent search to help legal professionals access faster and more relevant legal insights.
 
- Predictive Analytics
-Estimate case outcomes and timelines using XGBoost, LSTM, and historical court data.
+## Features
 
- Multilingual & Localized Support
-Enable language adaptability across Indian courts using XLM-R and custom translation layers.
+### Context-aware Search Engine  
+Uses LegalBERT, T5, and Elasticsearch to enable both semantic and keyword-based legal case retrieval.
 
- Explainable AI (XAI)
-Use SHAP for model interpretability to ensure trust and legal transparency.
+### Predictive Analytics  
+Predicts case outcomes and durations using XGBoost, LSTM, and historical court data.
 
- Personalized Case Recommendations
-Leverage transfer learning and metadata (e.g., region, judge, court) to tailor search results.
+### Multilingual and Localized Support  
+Supports multiple Indian languages using XLM-R and custom translation layers.
 
- Modular Microservices Architecture
-Backend using Django/Flask, frontend in React.js, and real-time search with Elasticsearch.
+### Explainable AI (XAI)  
+Uses SHAP and LIME to ensure model interpretability and legal transparency.
 
- Tech Stack
-yaml
-Copy
-Edit
- NLP Models: BERT, LegalBERT, T5, XLM-R
- Frameworks: Django, Flask, React.js
- Search: Elasticsearch, BM25, Dense Retrieval
- ML Models: XGBoost, LSTM
- Data Collection: Scrapy, BeautifulSoup
- Explainability: SHAP, LIME
- Use Cases
-Legal professionals conducting fast research on precedent cases.
+### Personalized Case Recommendations  
+Applies transfer learning and legal metadata (e.g., region, judge, court) to tailor case search results.
 
-Commercial litigators analyzing potential case duration and outcomes.
+### Modular Microservices Architecture  
+Backend built with Django and Flask; frontend developed in React.js; Elasticsearch powers the real-time search engine.
 
-Courts and law firms improving digital infrastructure for legal research.
+**Live Link :https://aiforcommercialcourts.vercel.app/**
+
+
+## Tech Stack
+
+```yaml
+NLP Models:
+  - BERT
+  - LegalBERT
+  - T5
+  - XLM-R
+
+Frameworks:
+  - Django
+  - Flask
+  - React.js
+
+Search:
+  - Elasticsearch
+  - BM25
+  - Dense Retrieval
+
+Machine Learning:
+  - XGBoost
+  - LSTM
+
+Data Collection:
+  - Scrapy
+  - BeautifulSoup
+
+Explainability:
+  - SHAP
+  - LIME
