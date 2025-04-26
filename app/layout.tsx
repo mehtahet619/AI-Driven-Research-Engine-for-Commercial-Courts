@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Justice AI - Indian Commercial Courts",
   description: "AI-Driven Research Engine for Indian Commercial Courts",
-    generator: 'v0.dev'
+ 
 }
 
 export default function RootLayout({
